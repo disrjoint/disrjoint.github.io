@@ -1,10 +1,10 @@
 body {
   background: #FFFFFF;
-  color: #333333;
+  color: #222222;
   font-size: 14px;
-  font-family: 'Poppins', 'Open Sans', 'Yu Gothic', 'YuGothic', sans-serif;
+  font-family: 'Open Sans', 'Yu Gothic', 'YuGothic', sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   hyphens: auto;
   line-height: 2em;
   margin-right: 20px;
@@ -22,12 +22,72 @@ p {
   text-align: justify;
 }
 a {
-  color: #0659FF;
+  color: #ED0000;
   text-decoration: none;
 }
 a:hover {
-  background:#0659FF;
   text-decoration: none;
+}
+ul {
+  margin: 0 0 0 -1em;
+  margin-bottom: 25px;
+}
+ol {
+  margin: 0 0 0 -1em;
+  margin-bottom: 25px;
+}
+li {
+  margin-top: 0.2em;
+  text-align: justify;
+}
+dl {
+  margin-top: 50px;
+}
+blockquote {
+  background: #F2F2F2;
+  margin: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+span.supText {
+  font-size: 75.5%;
+  position: relative;
+  top: -0.1em;
+  vertical-align: top;
+}
+.home {
+  color: #666666;
+  font-size: 14px;
+  line-height: 0em;
+  margin-bottom: 20px;
+}
+.header1 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-bottom: 25px;
+}
+.header2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.foot {
+  float: left;
+  font-size: 13px;
+  line-height: 2em;
+  width: 25px;
+}
+.note {
+  font-size: 13px;
+  line-height: 2em;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 @media screen and (min-width: 660px) {
 body {
